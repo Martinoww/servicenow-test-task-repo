@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>app for managing events</description>
+        <device_type>browser</device_type>
+        <hint>app for managing events</hint>
+        <name/>
+        <order/>
+        <roles>x_842887_events_ma.event_manager.admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 11:44:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cefc1c1907e4911092c1fe4f7c1ed0b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Events Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Events Manager" source="x_842887_events_ma">950b1c1907e4911092c1fe4f7c1ed073</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Events Manager">950b1c1907e4911092c1fe4f7c1ed073</sys_scope>
+        <sys_update_name>sys_app_application_cefc1c1907e4911092c1fe4f7c1ed0b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 11:44:35</sys_updated_on>
+        <title>Events Manager</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
