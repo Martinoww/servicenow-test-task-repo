@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="proposed_by" label="Proposed by" language="en" table="x_842887_events_ma_event">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>proposed_by</element>
+            <help/>
+            <hint/>
+            <label>Proposed by</label>
+            <language>en</language>
+            <name>x_842887_events_ma_event</name>
+            <plural>Proposed by</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 11:39:43</sys_created_on>
+            <sys_id>3edb9c5907e4911092c1fe4f7c1ed05c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Proposed by</sys_name>
+            <sys_package display_value="Events Manager" source="x_842887_events_ma">950b1c1907e4911092c1fe4f7c1ed073</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Events Manager">950b1c1907e4911092c1fe4f7c1ed073</sys_scope>
+            <sys_update_name>sys_documentation_x_842887_events_ma_event_proposed_by_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 11:39:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
