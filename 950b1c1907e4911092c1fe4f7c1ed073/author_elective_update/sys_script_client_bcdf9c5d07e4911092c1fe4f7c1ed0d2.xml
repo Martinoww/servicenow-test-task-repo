@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Auto set user when form is loaded</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto set user when form is loaded</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   var userId = g_user.userID;
+	
+	if(g_form.isNewRecord()){
+	g_form.setValue('proposed_by', userId);
+		
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 12:00:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bcdf9c5d07e4911092c1fe4f7c1ed0d2</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Auto set user when form is loaded</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Events Manager" source="x_842887_events_ma">950b1c1907e4911092c1fe4f7c1ed073</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Events Manager">950b1c1907e4911092c1fe4f7c1ed073</sys_scope>
+        <sys_update_name>sys_script_client_bcdf9c5d07e4911092c1fe4f7c1ed0d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 12:29:27</sys_updated_on>
+        <table>x_842887_events_ma_event</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Events Manager">950b1c1907e4911092c1fe4f7c1ed073</application>
+        <file_path/>
+        <instance_id>c359cf16dbdb04104d2bac44d496193d</instance_id>
+        <instance_name>dev102237</instance_name>
+        <name>sys_script_client_bcdf9c5d07e4911092c1fe4f7c1ed0d2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Auto set user when form is loaded&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Auto set user when form is loaded&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   var userId = g_user.userID;
+	
+	if(g_form.isNewRecord()){
+	g_form.setValue('proposed_by', userId);
+		
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-06 12:00:34&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bcdf9c5d07e4911092c1fe4f7c1ed0d2&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto set user when form is loaded&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Events Manager" source="x_842887_events_ma"&gt;950b1c1907e4911092c1fe4f7c1ed073&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Events Manager"&gt;950b1c1907e4911092c1fe4f7c1ed073&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_bcdf9c5d07e4911092c1fe4f7c1ed0d2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-06 12:29:27&lt;/sys_updated_on&gt;&lt;table&gt;x_842887_events_ma_event&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1945557420</payload_hash>
+        <record_name>Auto set user when form is loaded</record_name>
+        <reverted_from/>
+        <source>8ebd54d907e4911092c1fe4f7c1ed079</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 12:29:27</sys_created_on>
+        <sys_id>df376c150728911092c1fe4f7c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d37c99bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 12:29:27</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d7376c151d2891108583f6cf0f374e39</update_guid>
+        <update_guid_history>d7376c151d2891108583f6cf0f374e39:1945557420,9e1760154e289110a3446fcf55490720:-569000783,84e62815ac289110a0d70c9ed0a3609c:1945557420,bda62815ac289110f7ae29e9343aa719:-1167570071,6b62281102289110d351df8f2c62439b:1945557420,c342a4112c28911091d56eafb051175d:1483410337,7c0260112f289110a6d442db54b6a1bf:-721611008,fde1ecdd8ee491106870e198019c37db:-1240566399,47b128dd5ce4911098a090a99a6e8f4a:1334609484,c191a09d43e4911036e146f9563127e1:-2116699945,2f61a85d12e4911029a0c6ecc45656db:-1427040297,1ec0ac9df4e491106d915c1f6e35e92c:-2064825712,9ca0a85dcfe49110374bd76e5142b1d1:445854372</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 12:29:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>122a07b578e44e8083be662108368a10</sys_id>
+        <sys_metadata>bcdf9c5d07e4911092c1fe4f7c1ed0d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto set user when form is loaded</sys_name>
+        <sys_package display_value="Events Manager" source="x_842887_events_ma">950b1c1907e4911092c1fe4f7c1ed073</sys_package>
+        <sys_parent display_value="Event">92db9c5907e4911092c1fe4f7c1ed01a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Events Manager">950b1c1907e4911092c1fe4f7c1ed073</sys_scope>
+        <sys_scope_delete display_value="">2bb9570c62604f58987f1a34a94b4810</sys_scope_delete>
+        <sys_update_name>sys_script_client_bcdf9c5d07e4911092c1fe4f7c1ed0d2</sys_update_name>
+        <sys_update_version display_value="sys_script_client_bcdf9c5d07e4911092c1fe4f7c1ed0d2">df376c150728911092c1fe4f7c1ed039</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 12:29:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

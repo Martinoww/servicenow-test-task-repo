@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_event" table="x_842887_events_ma_event" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_event</element>
+            <name>x_842887_events_ma_event</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 11:56:49</sys_created_on>
+            <sys_id>51cf5c5d07e4911092c1fe4f7c1ed0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_event</sys_name>
+            <sys_package display_value="Events Manager" source="x_842887_events_ma">950b1c1907e4911092c1fe4f7c1ed073</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Events Manager">950b1c1907e4911092c1fe4f7c1ed073</sys_scope>
+            <sys_update_name>sys_choice_x_842887_events_ma_event_type_of_event</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 11:56:49</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indoor</label>
+            <language>en</language>
+            <name>x_842887_events_ma_event</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 11:56:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1dcf5c5d07e4911092c1fe4f7c1ed0d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 11:56:49</sys_updated_on>
+            <value>indoor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outdoor</label>
+            <language>en</language>
+            <name>x_842887_events_ma_event</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 11:56:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15cf5c5d07e4911092c1fe4f7c1ed0d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 11:56:49</sys_updated_on>
+            <value>outdoor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Online</label>
+            <language>en</language>
+            <name>x_842887_events_ma_event</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 11:56:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91cf5c5d07e4911092c1fe4f7c1ed0d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 11:56:49</sys_updated_on>
+            <value>online</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_842887_events_ma_event</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 11:56:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11cf5c5d07e4911092c1fe4f7c1ed0d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 11:56:49</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

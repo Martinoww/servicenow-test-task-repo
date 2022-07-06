@@ -7,7 +7,12 @@
         <element attributes="encode_utf8=false" label="Proposed by" max_length="32" name="proposed_by" reference="sys_user" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type of event" max_length="40" name="type_of_event" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
+                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
+                <element inactive_on_update="false" label="Online" sequence="2" value="online"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
         </element>
         <index name="index">
             <element name="proposed_by"/>
