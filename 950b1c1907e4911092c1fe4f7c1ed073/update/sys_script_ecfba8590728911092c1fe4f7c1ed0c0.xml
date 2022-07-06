@@ -19,7 +19,7 @@
         <is_rest>false</is_rest>
         <message/>
         <name>event date checker</name>
-        <order>100</order>
+        <order>200</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -42,21 +42,6 @@
         }
 
     }
-	
-	var rightNow = new GlideDateTime();
-    var isPast = new GlideDateTime(current.date);
-
-    if(isPast.before(rightNow.getDate())){
-        gs.addErrorMessage("Date cannot be in the past.  Your request has not been saved to the database.");
-        current.setAbortAction(true);
-    }
-	
-	
-    if(isPast.after(rightNow.getDate())){
-        gs.addErrorMessage("Date cannot be in the  future.  Your request has not been saved to the database.");
-        current.setAbortAction(true);
-    }
-	
 
 
 })(current, previous);]]></script>
@@ -66,7 +51,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ecfba8590728911092c1fe4f7c1ed0c0</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>event date checker</sys_name>
         <sys_overrides/>
         <sys_package display_value="Events Manager" source="x_842887_events_ma">950b1c1907e4911092c1fe4f7c1ed073</sys_package>
@@ -74,7 +59,7 @@
         <sys_scope display_value="Events Manager">950b1c1907e4911092c1fe4f7c1ed073</sys_scope>
         <sys_update_name>sys_script_ecfba8590728911092c1fe4f7c1ed0c0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 14:36:52</sys_updated_on>
+        <sys_updated_on>2022-07-06 15:10:56</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
