@@ -32,7 +32,7 @@
 	var today = new GlideDateTime();
     var isPast = new GlideDateTime(current.date);
 
-    if(isPast.before(eautils) || GlideDateTime(today) == -1){
+    if(isPast.before(today) || GlideDateTime(today) == -1){
         gs.addErrorMessage("When needed date cannot be in the past or today.  Your request has not been saved to the database.");
         current.setAbortAction(true);
     }
@@ -44,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>87a4e8910728911092c1fe4f7c1ed066</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Date checker </sys_name>
         <sys_overrides/>
         <sys_package display_value="Events Manager" source="x_842887_events_ma">950b1c1907e4911092c1fe4f7c1ed073</sys_package>
@@ -52,7 +52,7 @@
         <sys_scope display_value="Events Manager">950b1c1907e4911092c1fe4f7c1ed073</sys_scope>
         <sys_update_name>sys_script_87a4e8910728911092c1fe4f7c1ed066</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-06 13:44:39</sys_updated_on>
+        <sys_updated_on>2022-07-06 15:15:47</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
